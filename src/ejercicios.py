@@ -13,11 +13,11 @@ def maximo_matriz(matriz):
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
     mayores = []
-    def mayor_in_mat(matriz):
-        for lista in matriz:
+    for lista in matriz:
             mayor = max(lista)
             mayores.append(mayor)
-        valor_máximo = max(mayores)
+            valor_máximo = max(mayores)
+    return valor_máximo
 # Ejercicio 3: Verificar si un número es primo
 def es_primo(n):
     """
@@ -85,8 +85,9 @@ def cifrado_cesar(texto, desplazamiento):
 
 #Aquí comienza el progrma principal. No modifiques el código debajo de esta línea.
 def main():
-    pass
-
+    matrix = [[2,3,4], [5,6,7]]
+    mayor = maximo_matriz(matrix)
+    print(mayor)
 
 if __name__ == "__main__":
     main()
