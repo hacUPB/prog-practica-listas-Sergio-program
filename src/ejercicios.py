@@ -40,7 +40,11 @@ def filtrar_pares(lista):
     Recibe una lista de números y devuelve una nueva lista con solo los números pares.
     Incluir el código aquí para filtrar los números pares.
     """
-    pass
+    pares = []
+    for i in lista:
+        if i % 2 == 0:
+            pares.append(i)
+    return pares
 
 # Ejercicio 6: Contar la cantidad de palabras en una frase
 def contar_palabras(frase):
@@ -85,9 +89,6 @@ def cifrado_cesar(texto, desplazamiento):
 
 #Aquí comienza el progrma principal. No modifiques el código debajo de esta línea.
 def main():
-    matrix = [[2,3,4], [5,6,7]]
-    mayor = maximo_matriz(matrix)
-    print(mayor)
-
+    pass
 if __name__ == "__main__":
     main()
