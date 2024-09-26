@@ -12,8 +12,12 @@ def maximo_matriz(matriz):
     Recibe una lista de listas y devuelve el valor máximo.
     Incluir el código aquí para encontrar el valor máximo en la matriz.
     """
-    pass
-
+    mayores = []
+    for lista in matriz:
+            mayor = max(lista)
+            mayores.append(mayor)
+            valor_máximo = max(mayores)
+    return valor_máximo
 # Ejercicio 3: Verificar si un número es primo
 def es_primo(n):
     """
@@ -36,7 +40,11 @@ def filtrar_pares(lista):
     Recibe una lista de números y devuelve una nueva lista con solo los números pares.
     Incluir el código aquí para filtrar los números pares.
     """
-    pass
+    pares = []
+    for i in lista:
+        if i % 2 == 0:
+            pares.append(i)
+    return pares
 
 # Ejercicio 6: Contar la cantidad de palabras en una frase
 def contar_palabras(frase):
@@ -76,13 +84,12 @@ def cifrado_cesar(texto, desplazamiento):
     Recibe un texto y un desplazamiento, y devuelve el texto cifrado usando el cifrado César.
     Incluir el código aquí para cifrar el texto con el cifrado César.
     """
+    cifrado = ""
     pass
 
 
 #Aquí comienza el progrma principal. No modifiques el código debajo de esta línea.
 def main():
     pass
-
-
 if __name__ == "__main__":
     main()
