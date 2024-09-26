@@ -84,6 +84,7 @@ def cifrado_cesar(texto, desplazamiento):
     Recibe un texto y un desplazamiento, y devuelve el texto cifrado usando el cifrado César.
     Incluir el código aquí para cifrar el texto con el cifrado César.
     """
+    cifrado = ""
     pass
 
 
